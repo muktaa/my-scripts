@@ -24,5 +24,6 @@ It will ask you for both. You can specify the region in which your servers are m
 
 ### 2. Run script
 Run chmod u+x to ensure it has execute permissions, and give it a run.
-
-### 2. Output
+``
+./aws-at-a-glance.sh
+``
