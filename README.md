@@ -17,10 +17,15 @@ Once installed, you should then go manually retrieve your Access Key from the IA
 Instructions for snagging the access key/secret
 
 Once you have these two values, run (in your shell of choice):
-
+```
 aws configure
-
+```
 It will ask you for both. You can specify the region in which your servers are mentioned. The default output format can be left as None.
+
+You also need to have jq installed:
+```
+pip install jq
+```
 
 ### 2. Run script
 Run chmod u+x to ensure it has execute permissions, and give it a run.
